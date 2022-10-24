@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Navegacion */
+
+.navegación{
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    align-items: center;
+}
+
+.navegación__lista {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.navegación__lista li {
+   margin-right: 5rem;
+   
+}
+
+.navegación__lista li a {
+   text-decoration: none;
+   font-size: 1.5rem;
+   color:#ffffff;
+   list-style: none;
+}
+
+.navegación__lista li a:hover {
+    cursor: pointer;
+    color: #47ea4e;
+    transition: all 1s ease-out;
+}
+
+.logo {
+    width:30%;
+}
+
+/* Primera seccion */
+
+.primera__sección {
+    height: 90vh;
+    background-image:url(../img/oficina\ de\ agencia.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+
+    
+}
+
+.texto {
+   position:absolute;
+   top: 25%;
+   left: 10%;
+}
+
+.texto__titulo__1{
+   color: #ffffff;
+   font-size: 7rem;
+   font-weight: 800;
+}
+
+.texto__titulo__2{
+    color: #ffffff;
+    font-size: 7rem;
+    font-weight: 800;
+    margin-top: 3rem;
+ }
+
+ .btn {
+    background-color: #47ea4e;
+    text-decoration:none;
+    padding: 2rem 7rem;
+    display: inline-block;
+    border-radius: 10rem;
+    margin-top: 10rem;
+    color:#ffffff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border:0.2rem solid #47ea4e;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+ }
+
+ .btn:hover {
+    background-color: transparent;
+    color: #47ea4e;
+    font-size: 1.4rem;
+    transition: all 1s ease-out;
+ }
+
+/* Primera seccion */
+
+.segunda__sección {
+    height: 100vh;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* duda: los atributos pueden afectar los elemtos dentro del div o deben ser aplicado directamente*/
+.tarjeta__sostenedor {
+    color: #ffffff;
+    background-color: #47ea4e;
+    height: 12rem;
+    width: 30rem;
+    position:absolute;
+    text-align: center;
+    top:0;
+    left:0;
+    
+     }
+   
+
+.tarjeta__sostenedor h2 {
+    padding: 5rem;
+    font-size: 1.4rem;
+    letter-spacing:0.5rem;
+    text-transform: uppercase;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.tarjeta__caja {
+    background-color:#47ea4e;
+    height: 50rem;
+    width: 20rem;
+    border:0.1rem solid #ffffff;
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+}
+
+.tarjeta__num {
+ height:15rem ;
+
+}
+
+.tarjeta__num p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 26rem;
+    overflow: hidden;
+    line-height: 100%;
+}
+
+.tarjeta__texto {
+    color: #ffffff;
+    overflow-x: hidden;
+}
